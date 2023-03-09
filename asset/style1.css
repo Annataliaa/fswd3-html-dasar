@@ -1,0 +1,81 @@
+.grid-container {
+  width: 475px;
+  height: 685px;
+  display: grid;
+  background-color: rgba(206, 206, 206, 0.8);
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr) ; 
+  color: white;
+  justify-content: center;
+}
+
+.grid-item {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item1 {
+grid-column: 1 / span 2;
+grid-row: 1 / span 2;
+background-color: rgb(130, 237, 43);
+}
+
+.item2 {
+grid-column: 3 / span 5;
+grid-row: 1 ;
+background-color: rgb(85, 217, 247);
+}
+
+.item3 {
+grid-column: 3 / span 1;
+grid-row: 2 / span 2;
+background-color: rgba(255, 211, 14, 0.96);
+}
+
+.item4 {
+grid-column: 4 / span 4;
+grid-row: 2;
+background-color: rgb(197, 138, 2);
+}
+
+.item5 {
+grid-column: 1 / span 2;
+grid-row: 3 / span 2;
+background-color: rgb(253, 118, 0);
+}
+
+.item6 {
+grid-column: 4 / span 4;
+grid-row: 3 / span 2;
+background-color: rgba(149, 0, 255, 0.822);
+}
+
+.item7 {
+grid-column: 3 / span 1;
+grid-row:4 ;
+background-color: red;
+}
+
+.item8 {
+grid-column: 1 / span 3;
+grid-row: 5 ;
+background-color: rgb(255, 0, 153);
+}
+
+.item9 {
+grid-column: 4 / span 4;
+grid-row:5 ;
+background-color: rgba(255, 0, 212, 0.659);
+}
+
+.item10 {
+grid-column: 1 / span 7;
+grid-row: 6 ;
+background-color: rgb(83, 152, 255);
+}

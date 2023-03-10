@@ -24,6 +24,7 @@
 grid-column: 1 / span 2;
 grid-row: 1 / span 2;
 background-color: rgb(130, 237, 43);
+padding-top: 35%;
 }
 
 .item2 {
@@ -36,6 +37,7 @@ background-color: rgb(85, 217, 247);
 grid-column: 3 / span 1;
 grid-row: 2 / span 2;
 background-color: rgba(255, 211, 14, 0.96);
+padding-top: 100%;
 }
 
 .item4 {
@@ -48,12 +50,14 @@ background-color: rgb(197, 138, 2);
 grid-column: 1 / span 2;
 grid-row: 3 / span 2;
 background-color: rgb(253, 118, 0);
+padding-top: 45%;
 }
 
 .item6 {
 grid-column: 4 / span 4;
 grid-row: 3 / span 2;
 background-color: rgba(149, 0, 255, 0.822);
+padding-top: 70%;
 }
 
 .item7 {

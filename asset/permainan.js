@@ -36,21 +36,21 @@ function checkWinner(){
         return "Draw!";
     }
     else if(computer == "Rock"){
-        return (player == "Paper") ? "Anda menang" : "Anda kalah"
+        return (player == "Paper") ? "You Win!" : "You Lose!"
     }
     else if(computer == "Rock"){
-        return (player == "Scissors") ? "Anda menang" : "Anda kalah"
+        return (player == "Scissors") ? "You Win!" : "You Lose!"
     }
     else if(computer == "Scissors"){
-        return (player == "Rock") ? "Anda menang" : "Anda kalah"
+        return (player == "Rock") ? "You Win!" : "You Lose!"
     }
     else if(computer == "Scissors"){
-        return (player == "Paper") ? "Anda menang" : "Anda kalah"
+        return (player == "Paper") ? "You Win!" : "You Lose!"
     }
     else if(computer == "Paper"){
-        return (player == "Rock") ? "Anda menang" : "Anda kalah"
+        return (player == "Rock") ? "You Win!" : "You Lose!"
     }
     else if(computer == "Paper"){
-        return (player == "Scissors") ? "Anda menang" : "Anda kalah"
+        return (player == "Scissors") ? "You Win!" : "You Lose!"
     }
 }

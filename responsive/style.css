@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: silver;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    color: black;
+}
+.nav {
+    padding: 10px;
+    width: 100%;
+}
+.nav p{
+    display: inline;
+    font-weight: bold;
+    padding: 1%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+.home {
+    margin-block-end: 20em;
+}
+.jumbotron {
+    background-color: #3097af;
+    width: 100%;
+}
+.jumbotron h1 {
+    margin-left: 12em;
+    margin-right: 10em;
+}
+.jumbotron p {
+    margin-left: 23.5em;
+    margin-right: 10em;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.artikel {
+    width: 80%;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.des {
+    width: 100%;
+}
+
+.card {
+    padding: 0.5em;
+    height:auto;
+    width: 29%;
+    float:left;
+    margin: 20px 1%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgb(181, 181, 181);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .head-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 0.1em;
+  }
+
+  .head-card h3,p{
+    padding-left: 10px;
+    bottom: 15%;
+  }
+
+  .body-card {
+    padding: 10px 10px;
+    padding-top: 0;
+  }
+  .selengkapnya {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: small;
+    font-weight: bold;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+  }
+
+  @media screen and (max-width: 800px){
+    .jumbotron {
+        display: none;
+    }
+    .artikel {
+        width: 100%;
+    }
+    .card {
+        padding: 0.5em;
+        height:auto;
+        width: 100%;
+        float:left;
+        margin: 20px 1%;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.1);
+      }
+      .sidebar {
+        width: 100%;
+    }
+    .nav {
+        padding: 10px;
+        width: 100%;
+        background-color: rgb(106, 161, 255);
+        justify-content: center;
+    }
+    .nav p{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-weight: bold;
+        padding: 1%;
+        text-decoration: none;
+        justify-content: center;
+    }
+    .blog {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .home {
+        margin: 0;
+    }
+
+  }
+
+  .toggle-sidebar {
+    border: none;
+    background-color: #3097af;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .sidebar {
+    height: 100vh;
+    width: 200px;
+    list-style: none;
+    background-color: #3097af;
+  }
+
+  .sidebar li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid silver;
+    transition: background-color 0.5s;
+  }
+  .sidebar li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }

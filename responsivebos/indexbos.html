@@ -1,81 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Responsive bootstrap</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../responsivebos/style2.css">
+    <link rel="stylesheet" href="../assets/img">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(248, 248, 248);
+      }
+    .jumbotron {
+        background-color: #fd9c9c;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 800px){
+        .jumbotron {
+            display: none;
+        }
+    }
+</style>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Annatalia</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="../responsivebos/indexbos.html">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Wishlist<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="../responsivebos/dalambos.html">Wisata Dalam Negara</a></li>
-          <li><a href="../responsivebos/luarbos.html">Wisata Luar Negara</a></li>
-        </ul>
-      </li>
-      <li><a href="../responsivebos/account.html">Accaount</a></li>
-    </ul>
-  </div>
-</nav>
-<div class="jumbotron">
-    <center>
-    <h2> Wishlist Traveling </h2>
-    <h3> Blog ini berisi Daftar keinginan berpergian Annatalia</h3>
-    </center>
-</div>
-<div class="row pt-3">
-    <div class="col-md-10">
-        <div class="container-fluid">
-            <div class="row pb-3">
-                    <div class="col-md-4 pb-3">
-                        <div class="card" style="width: 100%;">
-                             <img src="" alt="">
-                            <div class="card-body">
-                              <h5 class="Wisata Luar Negara">Wisata Luar Negara</h5>
-                              <a href="../responsivebos/luarbos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto ">
+                <a class="navbar-brand me-5" href="#">ADVANTURE</a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../responsivebos/indexbos.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active" href="../responsivebos/account.html">Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron pt-5 pb-5 ">
+        <div class="container">
+          <div>
+            <center>
+            <a><img src="../asset/Natta.jpg" alt="Profile" width="15%"> </a>
+            <br>
+            <h1>Wishlist Traveling</h1>
+            <p>Blog ini berisi Daftar keinginan berpergian Annatalia</p>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-md-10">
+            <div class="container-fluid">
+                <div class="row pb-3">
+                        <div class="col-md-4 pb-3">
+                            <div class="card" style="width: 100%;">
+                                 <img src="../asset/banda neira.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">Banda Neira</h5>
+                                  <p style=text-align:justify;>Banda Neira atau Banda Naira adalah salah satu pulau di Kepulauan Banda, dan merupakan pusat administratif Kecamatan Banda, Kabupaten Maluku Tengah, Maluku, Indonesia. 
+                                    Secara administratif, Banda Neira terbagi dalam 12 desa, yakni Dwiwarna, Kampung Baru, Merdeka, Nusantara, Rajawali,Tanah Rata, Lonthoir, Walang, Katoro, Kumber, Selamon, Dender, Waer dan Pulau Hatta.
+                                    Yang unik lainnya dari Banda Neira adalah Timba Uli, yaitu pesta laut yang berlangsung dua kali setiap tahun yaitu pada bulan Maret dan April.
+                                    Kegiatannya adalah menangkap hewan laut sejenis ulat berwarna hijau yang panjang (menyerupai benang) dan berbulu, untuk dimasak dan dikonsumsi bersama.</p>
+                                  <a href="../responsivebos/dalambos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 pb-3">
+                            <div class="card" style="width: 100%;">
+                                 <img src="../asset/labuanbajo.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">Labuan Bajo</h5>
+                                  <p style=text-align:justify;> Labuan Bajo merupakan sebuah surga tersembunyi yang ada di Indonesia bagian timur. 
+                                    Desa ini terletak di Kecamatan Komodo, Kabupaten Manggarai Barat, Provinsi Nusa Tenggara Timur yang berbatasan langsung dengan Nusa Tenggara Barat dan dipisahkan oleh Selat Sape. 
+                                    Labuan Bajo adalah salah satu dari lima Destinasi Super Prioritas yang sedang dikembangkan di Indonesia.
+                                    Spot lain yang tidak boleh ketinggalan adalah Pink Beach atau yang dikenal sebagai Pantai Merah oleh masyarakat lokal. 
+                                    Sobat Pesona tahu enggak? Warna merah di pantai ini ternyata berasal dari hewan mikroskopis dan pecahan batu karang berwarna kemerahan di sekitar pesisir pantai.</p>
+                                    <a href="../responsivebos/dalambos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 pb-3">
+                          <div class="card" style="width: 100%;">
+                               <img src="../asset/nusa penida.jpg" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Nusa Penida</h5>
+                                <p  style=text-align:justify;> Nusa Penida merupakan sebuah kawasan di wilayah Kabupaten Klungkung Provinsi Bali yang berbentuk kepulauan, sehingga Kabupaten Klungkung merupakan satu-satunya Kabupaten di Bali yang memiliki wilayah kepulauan.
+                                  Kepulauan Nusa Penida sendiri secara administratif berada dalam satu kecamatan yang disebut dengan Kecamatan Nusa Penida.
+                                  Nusa Penida sebagai salah satu kawasan pariwisata yang ada di Kabupaten Klungkung yang artinya Pulau Surga Biru dengan keindahan alam bawah lautnya serta keindahan alam yang eksotik dimana jika dilihat dari daratan terlihat bentangan surga biru indahnya wilayah perairan (laut) Nusa Penida.</p>
+                                  <a href="../responsivebos/dalambos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                              </div>
                             </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4 pb-3">
-                        <div class="card" style="width: 100%;">
-                             <img src="" alt="">
-                            <div class="card-body">
-                              <h5 class="Wisata Dalam Negara">Wisata Dalam Negara</h5>
-                              <a href="../responsivebos/dalambos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                       </div>
+                       <div class="col-md-4 pb-3">
+                          <div class="card" style="width: 100%;">
+                               <img src="../asset/rajaampat.jpg" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Raja Ampat</h5>
+                                <p  style=text-align:justify;> Kepulauan Raja Ampat, Papua Barat, Indonesia-lah tempatnya.
+                                  Kepulauan yang berada di ujung barat laut pulau Papua ini memang sudah dikenal luas sebagai 'tambang emas' bagi para penggila petualangan.
+                                  Raja Ampat menyimpan keindahan bawah laut yang memikat. 
+                                  Setidaknya terdapat sekitar 1500 spesies ikan, 500an spesies koral, dan lebih dari 600 hewan tak bertulang belakang di bawah laut di seluruh wilayah Raja Ampat. 
+                                  Hal ini terbilang wajar mengingat 75% spesies ikan di dunia dapat ditemukan di Raja Ampat.</p>
+                                  <a href="../responsivebos/dalambos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                              </div>
                             </div>
-                          </div>
-                    </div>
+                      </div>
+                        <div class="col-md-4 pb-3">
+                            <div class="card" style="width: 100%;">
+                                 <img src="../asset/capadocia.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">Capadocia Turkey</h5>
+                                  <p style=text-align:justify;> Kapadokia (bahasa Turki: Kapadokya, dari bahasa Yunani: Καππαδοκία / Kappadokía, bahasa Persia: کاپادوکیه Kāpādōkiyeh) adalah daerah bersejarah di Anatolia Tengah, terutama di Provinsi Nevşehir di negara Turki modern.
+                                    Cappadocia terkenal dengan hamparan batuan vulkanik lunak yang terbentuk oleh erosi dari gunung berapi selama jutaan tahun.
+                                    Batuan itu menjadi beragam bentuk yang unik seperti menara, kerucut, lembah, dan gua. Beberapa batuan terbut bahkan memiliki tinggi hingga 45 m.</p>
+                                  <a href="../responsivebos/luarbos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 pb-3">
+                          <div class="card" style="width: 100%;">
+                               <img src="../asset/universal.jpg" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Universal Studio</h5>
+                                <p style=text-align:justify;> Universal Studio Japan terletak di Osaka, Jepang.
+                                  Merupakan salah satu dari empat taman hiburan Universal Studio yang dimiliki dan dioperasikan oleh USJ Co, Ltd dengan lisensi dari NBCUniversal.
+                                  Wahana ini memiliki delapan bagian, yaitu Hollywood, New York, San Francisco, Jurassic Park, Waterworld, Amity Village, Universal Wonderland, dan The Wizarding World of Harry Potter.</p>
+                                  <a href="../responsivebos/luarbos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                              </div>
+                            </div>
+                        </div>
+                            <div class="col-md-4 pb-3">
+                              <div class="card" style="width: 100%;">
+                                   <img src="../asset/swiss.jpg" alt="">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Danau Luzern</h5>
+                                    <p style=text-align:justify;> Danau Luzern adalah danau yang terletak di Swiss tengah dan merupakan danau terbesar keempat di negara tersebut. Danau ini memiliki bentuk yang rumit. 
+                                      Luasnya tercatat sebesar 114 km² dengan ketinggian 434 m dan kedalaman maksimum 214 m. Volumenya adalah 11,8 km³.</p>
+                                      <a href="../responsivebos/luarbos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                                  </div>
+                                </div>
+                            </div>
+                                <div class="col-md-4 pb-3">
+                                  <div class="card" style="width: 100%;">
+                                       <img src="../asset/sumida.jpg" alt="">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Sumida Park (Taito-ku)</h5>
+                                        <p style=text-align:justify;> Taman ini tidak hanya terkenal dengan pesta kembang apinya pada musim panas, tetapi dikenal juga sebagai tempat mekarnya bunga Sakura pada musim semi. Selain dapat mengambil foto sekitar 600 pohon Sakura, Anda juga dapat mengambil foto TOKYO SKYTREE(R) yang ada di hadapan Anda.
+                                          Hanami dari atas air dengan naik Yakatabune (kapal beratap ala Jepang) bisa menjadi kenangan yang tak terlupakan.</p>
+                                          <a href="../responsivebos/luarbos.html" class="btn btn-primary" style="width:100%">Selengkapnya</a>
+                                      </div>
+                                    </div>
+                                </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="sidebar">
-        <p style="font-weight: bold; color: rgb(0, 0, 0);">Artikel Terkait</p>
-        <p style="padding-bottom: 1rem;color:rgb(0, 0, 0)">Wishlist Annatalia</p>
-        <li><a style="font-size: small;font-weight: bold;">Banda Neira</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Labuan Bajo</a></li> 
-        <li><a style="font-size: small;font-weight: bold;">Nusa Penida</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Raja Ampat</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Capadocia Turkey</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Universal Studio</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Danau Luzern</a></li>
-        <li><a style="font-size: small;font-weight: bold;">Sumida Park (Taito-ku)</a></li>
-    </div>
-  </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <div class="col-md-2 p-2">
+            <div class="container">
+                <p class="fw-bold">Artikel terkait</p>
+                <p class="pb-2">Wishlist Annatalia</p>
+                <p>Banda neira</p>
+                <p>Labuanbajo</p>
+                <p>Nusa Penida</p>
+                <p>Raja Ampat</p>
+                <p>Universal Studio</p>
+                <p>Capadocia Turkey</p>
+                <p>Danau Luzern</p>
+                <p>Sumida Park (Taito-ku) </p>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
 
